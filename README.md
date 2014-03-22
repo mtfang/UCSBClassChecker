@@ -42,9 +42,11 @@ To have this script send you a text when a class opens up, use one of these for 
 
 3. `mins_to_wait` : How long you want to wait before checking GOLD again.  
 
-4. `quarter` : This is a numerical value, internal to UCSB GOLD. The pattern seems to be YYYY# where # is the quarter number. So Winter 2014 is 20141.  
+4. `check_pass_time` : 1 to only check when within one of your three pass times, 0 to disable. 
 
-5. `search_params` : The easiest way to search is to just set the `enroll_code` and leave the rest blank. If you want to use the `department` you need to enter the `course_num` as well. You can have more than 5 of those individual searches. Just copy and paste another one into the list:
+5. `quarter` : This is a numerical value, internal to UCSB GOLD. The pattern seems to be YYYY# where # is the quarter number. So Winter 2014 is 20141.  
+
+6. `search_params` : The easiest way to search is to just set the `enroll_code` and leave the rest blank. If you want to use the `department` you need to enter the `course_num` as well. You can have more than 5 of those individual searches. Just copy and paste another one into the list:
   
         {  
             "enroll_code" : "31476",  
