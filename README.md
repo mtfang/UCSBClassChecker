@@ -3,6 +3,8 @@ UCSBClassChecker
 
 Python script for checking if UCSB classes are open.
 
+See it being used here: http://i.imgur.com/D28orMx.png
+
 ---
 
 **Clone this repo, edit the search.json file, and run in your terminal.**
@@ -53,5 +55,7 @@ To have this script send you a text when a class opens up, use one of these for 
             "department" : "",   
             "course_num" : ""  
         }  
+
+
 
 [![githalytics.com alpha](https://cruel-carlota.pagodabox.com/30f2235cab60b1b9f33e8ff546b33641 "githalytics.com")](http://githalytics.com/nando1/UCSBClassChecker)
