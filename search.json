@@ -2,8 +2,8 @@
     "ucsb_net_id": "YOUR_UCSB_NET_ID",
     "notify_email": "EMAIL_THAT_WILL_RECEIVE_NOTIFICATION",
     "mins_to_wait": "3",
-    "quarter": "20142",
     "check_pass_time": "1",
+    "quarter": "20142",
     "search_params":
                     [{
                         "enroll_code" : "",
